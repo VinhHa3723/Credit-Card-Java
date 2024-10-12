@@ -1,9 +1,12 @@
 public class Money
 {
-        private int dollars; 
+        private double amount; 
         private int cents;
         
-        public Money
+        public Money(double amount)
+        {
+                this.amount = amount; 
+        }
 
 
 }
