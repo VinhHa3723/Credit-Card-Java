@@ -1,10 +1,20 @@
+/**
+   This class represents the owner of the card
+   and his personal information.
+*/
+
 public class Person 
 {
     private String firstName;
     private String lastName;
     private Address address;
 
-    // Constructor to initialize the person's details
+    /**
+       The Person method
+       @param firstName 
+       @param lastName 
+       @param address 
+    */
     public Person(String firstName, String lastName, Address address) 
     {
         this.firstName = firstName;
