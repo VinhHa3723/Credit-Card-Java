@@ -1,8 +1,14 @@
+/**
+   This class represents the different dollar amount on the card.
+*/
 public class Money 
 {
     private double amount;
 
-    // Constructor to initialize the amount
+    /**
+       The Money method
+       @param amount
+    */
     public Money(double amount) 
     {
         this.amount = amount;
