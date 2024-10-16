@@ -13,9 +13,9 @@ public class Address
     /**
        The Address method
        @param street The street name.
-	   @param city The city of owner.
+       @param city The city of owner.
        @param state The state of owner.
-	   @param zip The zipcode of owner.
+       @param zip The zipcode of owner.
     */
     public Address(String street, String city, String state, String zip) 
     {
