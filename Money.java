@@ -14,25 +14,40 @@ public class Money
         this.amount = amount;
     }
 
-    // Copy constructor
+    /**
+       Copy constructor
+       @param other Another dollar amount
+    */
     public Money(Money other) 
     {
         this.amount = other.amount;
     }
 
-    // Method to add two Money objects
+    /**
+       The add method
+       @param other Another dollar amount
+       @return The new balance of the card
+    */
     public Money add(Money other) 
     {
         return new Money(this.amount + other.amount);
     }
 
-    // Method to subtract two Money objects
+    /**
+       The subtract method
+       @param other Another dollar amount
+       @return The new balance of the card
+    */
     public Money subtract(Money other) 
     {
         return new Money(this.amount - other.amount);
     }
 
-    // Method to compare two Money objects
+    /**
+       The compareTo method
+       @param other Another dollar amount
+       @return -1,1,0
+    */
     public int compareTo(Money other) 
     {
         if (this.amount < other.amount) 
