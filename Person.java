@@ -1,19 +1,21 @@
-public class Person
+public class Person 
 {
-        public String toString()
-        {
-                return String.format()
-        }
+    private String firstName;
+    private String lastName;
+    private Address address;
 
-        public Person(string firstName, string lastName)  
-        {
+    // Constructor to initialize the person's details
+    public Person(String firstName, String lastName, Address address) 
+    {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+    }
 
-        }
-
-        public Address(string streetName, string city, string state, string zipCode)
-        {
-
-        }
-
-        
+    // Overriding the toString method to display personal information
+    @Override
+    public String toString() 
+    {
+        return firstName + " " + lastName + ", " + address.toString();
+    }
 }
