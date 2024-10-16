@@ -1,3 +1,8 @@
+/**
+   This class defines the address of 
+   the owner of the credit card.
+*/
+
 public class Address 
 {
     private String street;
@@ -5,7 +10,13 @@ public class Address
     private String state;
     private String zip;
 
-    // Constructor to initialize the address details
+    /**
+       The Address method
+       @param street The street name.
+	   @param city The city of owner.
+       @param state The state of owner.
+	   @param zip The zipcode of owner.
+    */
     public Address(String street, String city, String state, String zip) 
     {
         this.street = street;
