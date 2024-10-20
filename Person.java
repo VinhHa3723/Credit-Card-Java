@@ -10,7 +10,7 @@ public class Person
     private Address address;
 
     /**
-       The Person method
+       Constuctor
        @param firstName 
        @param lastName 
        @param address 
@@ -22,7 +22,6 @@ public class Person
         this.address = address;
     }
 
-    // Overriding the toString method to display personal information
     @Override
     public String toString() 
     {
