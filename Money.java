@@ -16,7 +16,7 @@ public class Money
 
     /**
        Copy constructor
-       @param other Another dollar amount
+       @param other Another dollar amount.
     */
     public Money(Money other) 
     {
@@ -25,8 +25,8 @@ public class Money
 
     /**
        The add method
-       @param other Another dollar amount
-       @return The new balance of the card
+       @param other Amount of money to add.
+       @return The new balance of the card.
     */
     public Money add(Money other) 
     {
@@ -35,8 +35,8 @@ public class Money
 
     /**
        The subtract method
-       @param other Another dollar amount
-       @return The new balance of the card
+       @param other Amount of money to subtract.
+       @return The new balance of the card.
     */
     public Money subtract(Money other) 
     {
@@ -45,8 +45,8 @@ public class Money
 
     /**
        The compareTo method
-       @param other Another dollar amount
-       @return -1,1,0
+       @param other Another dollar amount to compare.
+       @return -1, 1, 0.
     */
     public int compareTo(Money other) 
     {
@@ -64,7 +64,10 @@ public class Money
         }
     }
 
-    // Overriding the toString method to display monetary values
+    /**
+       toString method to display the amount in dollars and cents.
+       @return The formatted amount of money.
+    */
     @Override
     public String toString() 
     {
