@@ -1,27 +1,32 @@
 /**
-   This class represents the owner of the card
-   and his personal information.
+   This class represents the cardholder
+   and their personal information.
 */
 
 public class Person 
 {
-    private String firstName;
-    private String lastName;
-    private Address address;
+    private String firstName;   // The cardholder's first name.
+    private String lastName;    // The cardholder's last name.
+    private Address address;    // The cardholder's current address.
 
     /**
        Constuctor
-       @param firstName 
-       @param lastName 
-       @param address 
+       @param first The first name.
+       @param last  The last name.
+       @param home  The address. 
     */
-    public Person(String firstName, String lastName, Address address) 
+    public Person(String first, String last, Address home) 
     {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.address = address;
+        firstName = first;
+        lastName = last;
+        address = home;
     }
 
+    /**
+       toString method to display the cardholder's first name,
+       last name, and address.
+       @return The formatted personal information
+    */
     @Override
     public String toString() 
     {
