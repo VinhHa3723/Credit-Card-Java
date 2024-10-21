@@ -25,7 +25,10 @@ public class Address
         this.zip = zip;
     }
 
-    // Overriding the toString method to display the address
+    /**
+       toString method to display the address.
+       @return The formatted address.
+    */
     @Override
     public String toString() 
     {
